@@ -10,6 +10,7 @@ namespace UsertManagement
         private static List<UserModel> _users;
         private static UserFileProcess _db; //db:database:veritabanı
         
+
         static void Main(string[] args)
         {
             _db = new UserFileProcess();
